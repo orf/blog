@@ -4,5 +4,4 @@ _site
 ### Jekyll template
 _site/
 .sass-cache/
-.jekyll-metadata
-.idea/
+.idea
