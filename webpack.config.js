@@ -2,10 +2,10 @@ const webpack = require('webpack');
 
 module.exports = {
   // webpack folder's entry js - excluded from jekll's build process.
-  entry: "./js/site.js",
+  entry: "./assets/js/site.js",
   output: {
     // we're going to put the generated file in the assets folder so jekyll will grab it.
-      path: __dirname + '/_assets/js/',
+      path: __dirname + '/assets/js/',
       filename: "bundle.js"
   },
   plugins: [

@@ -263,4 +263,5 @@ collections:
     permalink: /:collection/:path/
 
 footer_scripts:
-  - /assets/bundle.js
+  - /assets/js/main.min.js
+  - /assets/js/bundle.js

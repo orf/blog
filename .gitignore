@@ -6,4 +6,4 @@ _site/
 .sass-cache/
 .idea
 node_modules/
-_assets/js/bundle.js
+assets/js/bundle.js
