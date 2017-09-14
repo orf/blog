@@ -188,6 +188,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-archives
+  - jekyll-assets
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -261,3 +262,6 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+
+footer_scripts:
+  - /assets/bundle.js
