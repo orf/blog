@@ -1,3 +1,5 @@
+const webpack = require('webpack');
+
 module.exports = {
   // webpack folder's entry js - excluded from jekll's build process.
   entry: "./js/site.js",
@@ -6,6 +8,9 @@ module.exports = {
       path: __dirname + '/_assets/js/',
       filename: "bundle.js"
   },
+  plugins: [
+      new webpack.optimize.UglifyJsPlugin()
+  ],
   module: {
     loaders: [
       {
